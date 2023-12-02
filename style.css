@@ -374,3 +374,174 @@ body::-webkit-scrollbar {
     position: relative;
     background-color: #ebebed;
 }
+
+
+.page6-content {
+    /* background-color: red; */
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+    text-align: center;
+}
+
+
+.page6-content>h1 {
+    font-family: sans-serif;
+    font-size: 7.7vh;
+    color: #12192b;
+}
+
+.page6-content>p {
+    font-family: sans-serif;
+    font-size: 3vh;
+    margin-top: 3vh;
+    color: #12192b;
+
+
+}
+
+.page6-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.page6-card-container .card {
+    background-color: white;
+    box-shadow: rgb(238, 238, 238) 0px 0px 20px 0px;
+    margin-top: 6vh;
+    width: 29vw;
+    height: 38vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page6-card-container .card h4 {
+    font-family: sans-serif;
+    font-weight: 300;
+    width: 80%;
+    font-size: 3vh;
+    color: #12192b;
+    line-height: 4.5vh;
+}
+
+.page6-card-container .card h5 {
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 80%;
+    font-size: 2.5vh;
+    margin-top: 2vh;
+    color: #12192b;
+}
+
+.page6-card-container .card p {
+    font-family: sans-serif;
+    color: #656a75;
+    margin-top: 2vh;
+}
+
+
+.page7 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #ebebed;
+}
+
+.page7-content {
+    /* background-color: red; */
+    position: absolute;
+    top: 14vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.page7-content h1 {
+    color: #12192b;
+    font-family: sans-serif;
+    font-size: 8vh;
+}
+
+.page7-content h4 {
+    font-family: sans-serif;
+    font-size: 3vh;
+    font-weight: 100;
+    width: 52%;
+    color: #12192bae;
+    line-height: 4.5vh;
+    margin-top: 3vh;
+}
+
+
+.page7-card-container {
+    display: flex;
+    gap: 2vw;
+}
+
+.page7-card {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 23vw;
+    height: 42vh;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgb(238, 238, 238) 0px 0px 20px 0px;
+    margin-top: 7vh;
+}
+
+.page7-card img {
+    width: 4vw;
+    margin-bottom: -12vh;
+}
+
+.page7-card .main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+
+}
+
+.page7-card .main-text h4 {
+    font-family: sans-serif;
+    font-weight: 400;
+
+}
+
+/* .page7-card .main-text p {
+    font-family: sans-serif;
+    width: 70%;
+    line-height: 3vh;
+    font-size: 2.2vh;
+    font-weight: 2;
+    color: #52565e;
+} */
+
+.page7-card p {
+    font-family: sans-serif;
+    width: 70%;
+    line-height: 3vh;
+    font-size: 2.2vh;
+    font-weight: 2;
+    color: #12192b;
+
+}
+
+.light-gray {
+    color: #52565ec9;
+}
+
+.mt-5 {
+    margin-top: -6vh;
+}
