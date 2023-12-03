@@ -38,3 +38,65 @@ gsap.from(".page1-btn", {
     delay: 1,
     stagger: 1,
 })
+
+
+gsap.from(".page2-content h1", {
+    opacity: 0,
+    scale: 0.3,
+    y: -120,
+    duration: 0.5,
+    scrollTrigger: {
+        trigger: ".page2-content",
+        scroller: "body",
+        // markers: true,
+        start: "top 70%",
+        end: "top 20%",
+        scrub: 3
+    }
+})
+
+
+gsap.from(".page3-content h1", {
+    y: 50,
+    color: "transparent",
+    duratioin: 0.5,
+    scrollTrigger: {
+        trigger: ".page3-content",
+        scroller: "body",
+        // markers: true,
+        start: "top 50%",
+        end: "top 40%",
+        scrub: 2
+    }
+
+})
+
+
+gsap.from(".left-list img", {
+    opacity: 0,
+    duration: 2,
+    stagger: 1,
+    scrollTrigger: {
+        trigger: ".page3-content",
+        scroller: "body",
+        // markers: true,
+        start: "top 50%",
+        end: "top 30%",
+        scrub: 3
+    }
+})
+
+gsap.from(".right-list img", {
+    opacity: 0,
+    duration: 2,
+    stagger: 1,
+    scrollTrigger: {
+        trigger: ".page3-content",
+        scroller: "body",
+        // markers: true,
+        start: "top 50%",
+        end: "top 30%",
+        scrub: 3,
+
+    }
+})
